@@ -1,0 +1,3 @@
+.segments-page { flex: 1; width: 100%; padding: 40px 5vw; }
+.segments-page h1 { font-family: var(--font-display); font-size: clamp(24px, 2.2vw, 30px); font-weight: 700; margin-bottom: 22px; }
+.segments-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }

@@ -1,0 +1,35 @@
+.segment-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 22px;
+  backdrop-filter: blur(6px);
+  transition: border-color 0.25s, transform 0.25s;
+}
+
+.segment-card:hover { border-color: var(--border-strong); transform: translateY(-2px); }
+
+.segment-top { display: flex; justify-content: space-between; align-items: center; }
+.segment-dot { width: 9px; height: 9px; border-radius: 50%; box-shadow: 0 0 8px currentColor; }
+.segment-pct { font-family: var(--font-display); font-size: 14px; color: var(--text-muted); }
+
+.segment-card h3 { margin-top: 14px; font-size: 16.5px; font-weight: 600; font-family: var(--font-display); }
+.segment-count { font-size: 13px; color: var(--text-muted); margin-top: 3px; }
+
+.segment-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+
+.segment-metrics span { display: block; font-size: 11px; color: var(--text-muted); }
+.segment-metrics strong { font-family: var(--font-display); font-size: 14.5px; font-weight: 600; }
+
+.segment-action {
+  margin-top: 14px;
+  font-size: 12.5px;
+  color: var(--accent-2);
+}

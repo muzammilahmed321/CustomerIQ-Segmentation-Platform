@@ -1,0 +1,97 @@
+# ==========================================
+# Python
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+
+# ==========================================
+# FastAPI / Backend
+# ==========================================
+
+backend/__pycache__/
+backend/**/__pycache__/
+
+# Backend virtual environment
+backend/venv/
+
+# Python cache
+*.pyc
+*.pyo
+
+
+# ==========================================
+# React / Vite
+# ==========================================
+
+frontend/node_modules/
+
+# Vite build output
+frontend/dist/
+
+# Vite cache
+frontend/.vite/
+
+# React environment files
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+
+# ==========================================
+# IDE / Editors
+# ==========================================
+
+.vscode/
+.idea/
+
+# VS Code local history
+.history/
+
+
+# ==========================================
+# OS files
+# ==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ==========================================
+# Logs
+# ==========================================
+
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# ==========================================
+# Temporary files
+# ==========================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+
+
+# ==========================================
+# Jupyter
+# ==========================================
+
+.ipynb_checkpoints/

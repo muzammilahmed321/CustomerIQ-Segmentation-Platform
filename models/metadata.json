@@ -1,0 +1,14 @@
+{
+    "model_version": "v1",
+    "features": ["Recency_log", "Frequency_log", "Monetary_log"],
+    "n_clusters": 4,
+    "cluster_labels": {
+        "0": {"name": "High-Value Loyal Customers", "action": "VIP retention campaign"},
+        "1": {"name": "Lost / Churned Customers", "action": "Win-back email campaign"},
+        "2": {"name": "At-Risk Customers", "action": "Urgent re-engagement offers"},
+        "3": {"name": "New / Regular Customers", "action": "Loyalty incentives, cross-sell"}
+    },
+    "silhouette_score": 0.3653,
+    "davies_bouldin_index": 0.9303,
+    "calinski_harabasz_score": 5061.7168
+}

@@ -1,0 +1,4 @@
+.anomalies-page { flex: 1; width: 100%; padding: 40px 5vw; }
+.anomalies-page h1 { font-family: var(--font-display); font-size: clamp(24px, 2.2vw, 30px); font-weight: 700; margin-bottom: 6px; }
+.anomalies-page .subtitle { color: var(--text-muted); font-size: 14px; margin-bottom: 22px; }
+.table-wrap { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; backdrop-filter: blur(6px); }
